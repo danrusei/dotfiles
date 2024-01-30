@@ -15,6 +15,11 @@
 * **i, a** - Insert text before / after cursor
 * **I, A** - Insert text at beginning / end of line
 * **o, O** - Open new line for text below / above cursor
+* :large_blue_diamond: In Visual Mode
+  * **y** - Copy the selected lines
+  * **d** - Cut the selected lines
+  * **p** - Paste after the cursor
+  * **P** - Paste before the cursor
 * **c{motion}, cw, cc, 2cw, cG, caw** - Begin change / change to next word / line (stay in insert mode) / change to next two words / change to end of file / change word (when in middle)
 * **yy, 5yy** - Copy current line / next five lines
 * **d{motion}, dw, dd, dfS, dL, dG** - Delete to next word / line / up to S / to end file. 10dd deletes 10 lines
