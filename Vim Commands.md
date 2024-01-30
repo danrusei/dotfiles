@@ -48,6 +48,13 @@
 * **Space f** - Quick open a file
 * **Space p** - Format document
 * **g h** - Show Definition Preview Hover
+* **g d** - Go To Definition
+* **g p d** - Peek Definition
+* **g i** - Go To Implementation
+* **g p i** - Peek Implementation
+* **g t** - Go To Type Definition
+* **g p t** - Peek Type Definition
+* **g r** - Reference Serch
 * :large_blue_diamond: In VIM Visual Mode:
    * **<** - Outdent Lines
    * **>** - Indent Lines
