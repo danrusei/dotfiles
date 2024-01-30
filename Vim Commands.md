@@ -43,7 +43,7 @@
 * **Space f** - Quick open a file
 * **Space p** - Format document
 * **g h** - Show Definition Preview Hover
-* In VIM Visual Mode:
+* :large_blue_diamond: In VIM Visual Mode:
    * **<** - Outdent Lines
    * **>** - Indent Lines
    * **J** - move selected lines Down
