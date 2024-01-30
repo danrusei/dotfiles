@@ -65,3 +65,7 @@
 * **Space a** - CocList diagnostics
 * **Space o** - CocList outline
 * **Space s** - CocList -I symbols
+
+## Addendum
+* :red_circle: - Linux VIM
+* :large_blue_circle: - VsCode VIM
