@@ -54,7 +54,7 @@
 * **g p i** - Peek Implementation
 * **g t** - Go To Type Definition
 * **g p t** - Peek Type Definition
-* **g r** - Reference Serch
+* **g r** - Reference Search
 * :large_blue_diamond: In VIM Visual Mode:
    * **<** - Outdent Lines
    * **>** - Indent Lines
