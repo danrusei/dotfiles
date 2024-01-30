@@ -22,12 +22,35 @@
 * **u,  CTRL-R** - undo last change, Redo changes which were undone
 * **d/c{motion}i or a , like ca)** - i acts inside object; a acts around, change a () block
 * **cif** - change in a function
-* **10gcc, gc, gcap** - comment out a line (takes a count), to comment out the target of a motion/visual mode (for example, gcap to comment out a paragraph -- COMMENTARY.VIM
+* :red_circle: **10gcc, gc, gcap** - comment out a line (takes a count), to comment out the target of a motion/visual mode (for example, gcap to comment out a paragraph -- COMMENTARY.VIM
 * **:%s/foo/bar/g** - Find each occurrence of 'foo' (in all lines), and replace it with 'bar'.
 * **:s/foo/bar/g** - Find each occurrence of 'foo' (in the current line only), and replace it with 'bar'.
 * **:%s/foo/bar/gc** - Change each 'foo' to 'bar', but ask for confirmation first.
 
-## Quick for file
+## :large_blue_circle: VIM for VsCode Mappings
+* **Space v** - splits certically
+* **Space s** - splits horizontally
+* Move Arouns the Panes
+   * **Space h** - move to Left Pane
+   * **Space l** - move to Right Pane
+   * **Space k** - move to Above Pane
+   * **Space j** - move to Below Pane
+* **Space w** - write / save changes
+* **Space q** - quits without saving
+* **Space x** - Like ":wq", but write only when changes have been made.
+* **[ d** - Marker Previous
+* **] d** - Marker Next
+* **Space f** - Quick open a file
+* **Space p** - Format document
+* **g h** - Show Definition Preview Hover
+* In VIM Visual Mode:
+   * **<** - Outdent Lines
+   * **>** - Indent Lines
+   * **J** - move selected lines Down
+   * **K** - move selected lines Up
+   * **Space c** - comment selected lines  
+
+## :red_circle: VIM for Linux Mappings
 * **jk** - exit Insert to Normal - MAPPING
 * **Tab Tab** - switch between Windows easily - MAPPING
 * **Tabs**
@@ -52,7 +75,7 @@
 * **:sp file, :vsp file** - Split current window horizontally or vertically
 * **CTRL-z; fg** - go to shell and resume to vim
 
-## Coc - mappings
+## :red_circle: Coc - mappings
 
 * **[g, ]g** - to navigate diagnostics
 * **gd, CTRL-O** coc-definition and back
