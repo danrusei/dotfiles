@@ -28,3 +28,8 @@ https://github.com/golang/tools/blob/master/gopls/README.md
       }
     }
   }
+
+
+===========================================================
+
+settings.json file is used for VIM bindings for Vscode
