@@ -15,15 +15,18 @@
 * **i, a** - Insert text before / after cursor
 * **I, A** - Insert text at beginning / end of line
 * **o, O** - Open new line for text below / above cursor
+* **yy, 5yy** - Copy current line / next five lines
+  * y$: Copy everything from the cursor to the end of the line
+  * y^: Copy everything from the start of the line to the cursor 
 * :large_blue_diamond: In Visual Mode
   * **y** - Copy the selected lines
   * **d** - Cut the selected lines
   * **p** - Paste after the cursor
   * **P** - Paste before the cursor
 * **c{motion}, cw, cc, 2cw, cG, caw** - Begin change / change to next word / line (stay in insert mode) / change to next two words / change to end of file / change word (when in middle)
-* **yy, 5yy** - Copy current line / next five lines
-* **d{motion}, dw, dd, dfS, dL, dG** - Delete to next word / line / up to S / to end file. 10dd deletes 10 lines
-* **D** - Deletes everything from where your cursor is to the end of the line
+* **d{motion}, dw, dd, dfS, dL, dG** - Cut to next word / line / up to S / to end file.
+  * **10dd** - Cut 10 lines
+  * **D** - Cut everything from where your cursor is to the end of the line
 * **u,  CTRL-R** - undo last change, Redo changes which were undone
 * **d/c{motion}i or a , like ca)** - i acts inside object; a acts around, change a () block
 * **cif** - change in a function
