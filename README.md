@@ -26,6 +26,7 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
     * Plug 'tpope/vim-fugitive' - https://vimawesome.com/plugin/fugitive-vim
     * Plug 'machakann/vim-highlightedyank' - https://vimawesome.com/plugin/vim-highlightedyank
     * Plug 'tpope/vim-commentary' - https://vimawesome.com/plugin/commentary-vim
+    * Plug 'junegunn/fzf.vim' - https://vimawesome.com/plugin/fzf
     * Plug 'neoclide/coc.nvim', {'branch': 'release'} - https://vimawesome.com/plugin/coc-nvim //used mainly to install language servers for GO & Rust
 
 In order to install them apply:
