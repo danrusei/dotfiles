@@ -2,22 +2,13 @@
   "editor.formatOnSave": true,
   "editor.suggest.insertMode": "replace",
   "workbench.colorTheme": "Default Dark Modern",
-  //"terminal.integrated.fontFamily": "MesloLGS NF",
-  // "editor.linkedEditing": true,
-  //"javascript.updateImportsOnFileMove.enabled": "always",
-  //"window.zoomLevel": 0.5,
-  // "launch": {},
-  // "[json]": {},
-  //"workbench.statusBar.visible": false,
-  //"editor.minimap.enabled": false,
-  //"breadcrumbs.enabled": false,
-  //"workbench.iconTheme": "material-icon-theme",
-  //"update.showReleaseNotes": false,
-  //"workbench.activityBar.visible": false,
   "zenMode.hideLineNumbers": false,
   "editor.lineNumbers": "relative",
   "vim.leader": "<Space>",
   "vim.hlsearch": true,
+  "vim.highlightedyank.enable": true,
+  "vim.highlightedyank.color": "#a9dc7660",
+  "vim.highlightedyank.duration": 600,
   "vim.normalModeKeyBindingsNonRecursive": [
     // NAVIGATION
     // switch b/w buffers
@@ -175,7 +166,64 @@
       "commands": [
         "editor.action.showDefinitionPreviewHover"
       ]
-    }
+    },
+    {
+      "before": [
+        "g",
+        "p",
+        "d"
+      ],
+      "commands": [
+        "editor.action.peekDefinition"
+      ]
+    },
+    {
+      "before": [
+        "g",
+        "i"
+      ],
+      "commands": [
+        "editor.action.goToImplementation"
+      ]
+    },
+    {
+      "before": [
+        "g",
+        "p",
+        "i"
+      ],
+      "commands": [
+        "editor.action.peekImplementation"
+      ]
+    },
+    {
+      "before": [
+        "g",
+        "t"
+      ],
+      "commands": [
+        "editor.action.goToTypeDefinition"
+      ]
+    },
+    {
+      "before": [
+        "g",
+        "p",
+        "t"
+      ],
+      "commands": [
+        "editor.action.peekTypeDefinition"
+      ]
+    },
+    {
+      "before": [
+        "g",
+        "r"
+      ],
+      "commands": [
+        "editor.action.referenceSearch.trigger"
+      ]
+    },
   ],
   "vim.visualModeKeyBindings": [
     // Stay in visual mode while indenting
