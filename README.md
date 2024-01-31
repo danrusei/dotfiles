@@ -3,20 +3,19 @@
 
 ### [HERE](https://github.com/danrusei/dotfiles/blob/main/Vim%20Commands.md) - The list of usual VIM commands including my custom bindings
 
-### Vim for Vscode Configure
+## Configure Vim for Vscode 
 
 * ** CTRL-Shift P** and select **Preferences: Open User Settings (JSON)**
 * Copy the content of [settings.json](https://github.com/danrusei/dotfiles/blob/main/vim/settings.json) file into your settings.json
 * Use the vim bindings from [Vim for VsCode Mappings](https://github.com/danrusei/dotfiles/blob/main/Vim%20Commands.md)
 
-### Vim for Linux Configure
+## Configure Vim on Linux 
 
 1. **Install vim-plug (https://github.com/junegunn/vim-plug)**
 
 ```
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
-
 
 ```
 
@@ -34,7 +33,7 @@ In order to install them apply:
 ```
 :PlugInstall
 ```
-4. ** Install Rust language server
+4. **Install Rust language server**
 
 ```
 :CocInstall coc-rust-analyzer (npm or yarn may be required)
