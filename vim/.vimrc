@@ -24,7 +24,6 @@ Plug 'junegunn/fzf.vim'
 " Coc installed mainly for Rust-analyzer, Use release branch (recommended)
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
-
 " Initialize plugin system
 call plug#end()
 
