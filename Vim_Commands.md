@@ -1,4 +1,4 @@
-# My VIM Commands & Mappings
+# Usual VIM Commands & my defined bindings
 
 ## Movements
 
@@ -35,7 +35,7 @@
 * **:s/foo/bar/g** - Find each occurrence of 'foo' (in the current line only), and replace it with 'bar'.
 * **:%s/foo/bar/gc** - Change each 'foo' to 'bar', but ask for confirmation first.
 
-## :large_blue_circle: VIM for VsCode Mappings
+## :large_blue_circle: VIM for VsCode Bindings
 * **Space v** - splits certically
 * **Space s** - splits horizontally
 * Move Arouns the Panes
@@ -65,7 +65,7 @@
    * **K** - move selected lines Up
    * **Space c** - comment selected lines  
 
-## :red_circle: VIM for Linux Mappings
+## :red_circle: VIM for Linux Bindings
 * **jk** - exit Insert to Normal - MAPPING
 * **Tab Tab** - switch between Windows easily - MAPPING
 * **Tabs**
