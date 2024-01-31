@@ -1,13 +1,13 @@
 
 ## This repository is hosting my Vim configuration with some basic bindings
 
-### [HERE](https://github.com/danrusei/dotfiles/blob/main/Vim%20Commands.md) - The list of usual VIM commands including my custom bindings
+### [HERE](https://github.com/danrusei/dotfiles/blob/main/Vim_Commands.md) - The list of usual VIM commands including my custom bindings
 
 ## Configure Vim for Vscode 
 
 * ** CTRL-Shift P** and select **Preferences: Open User Settings (JSON)**
 * Copy the content of [settings.json](https://github.com/danrusei/dotfiles/blob/main/vim/settings.json) file into your settings.json
-* Use the vim bindings from [Vim for VsCode Bindings](https://github.com/danrusei/dotfiles/blob/main/Vim%20Commands.md)
+* Use the vim bindings from [Vim for VsCode Bindings](https://github.com/danrusei/dotfiles/blob/main/Vim_Commands.md)
 
 ## Configure Vim on Linux 
 
