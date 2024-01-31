@@ -7,7 +7,7 @@
 
 * ** CTRL-Shift P** and select **Preferences: Open User Settings (JSON)**
 * Copy the content of [settings.json](https://github.com/danrusei/dotfiles/blob/main/vim/settings.json) file into your settings.json
-* Use the vim bindings from [Vim for VsCode Mappings](https://github.com/danrusei/dotfiles/blob/main/Vim%20Commands.md)
+* Use the vim bindings from [Vim for VsCode Bindings](https://github.com/danrusei/dotfiles/blob/main/Vim%20Commands.md)
 
 ## Configure Vim on Linux 
 
